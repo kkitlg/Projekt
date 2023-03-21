@@ -14,7 +14,12 @@ int main()
 {
     int liczba_calkowita = 5;
     bool wynik;
+    cout << "Program sprawdza czy cyfra 5 jest parzysta:" << endl << endl;
     wynik = czy_parzysta (liczba_calkowita);
-    cout << wynik;
+    if (wynik == 0)
+    {
+        cout << "Nie" << endl;
+    }
+    else cout << "Tak" << endl;
     return 0;
 }
