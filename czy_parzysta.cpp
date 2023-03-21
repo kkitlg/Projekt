@@ -32,12 +32,14 @@ int main()
     wynik = czy_parzysta (liczba_calkowita);
     if (wynik == 0)
     {
-        cout << "Nie" << endl << endl;
+        cout << "Nie" << endl << endl << endl;
     }
     else
     {
-        cout << "Tak" << endl << endl;
+        cout << "Tak" << endl << endl << endl;
     }
+
+    cout << "Testowanie programu:" << endl << endl;
 
     bool wynik_testu;
     cout << "Uruchomienie testu dla 1:" << endl << endl;
